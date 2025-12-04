@@ -19,9 +19,7 @@ jobs:
           python-version: "3.10"
   
       - name: Install dependencies
-        uses: pip install -r reqirements.text
-        
-        
+        run: pip install -r reqirements.text
   
       - name: Run tests
-        uses: pytest
+        run: pytest
