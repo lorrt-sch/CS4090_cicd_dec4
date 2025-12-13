@@ -30,7 +30,7 @@ jobs:
       - name: Prepare the webpage
         run: |
           mkdir sites
-          mv htmlcov sites/
+          mv report.html sites/
           mv coverage.xml sites/
       
       - name: upload the artifacts
